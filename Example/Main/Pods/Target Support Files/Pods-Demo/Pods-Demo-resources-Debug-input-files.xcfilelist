@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/Component/Component.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/Component2/Component2.bundle

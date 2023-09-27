@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  Demo
+
+  Created by 裘俊云 on 2023/7/6.
+  
+*/
+
+CFBundleDisplayName = "modèle";
+
+"bb"="frence";

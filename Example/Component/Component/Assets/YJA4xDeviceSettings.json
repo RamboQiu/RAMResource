@@ -1,0 +1,30 @@
+{
+  "config": [
+    {
+      "menuItems": [
+        {
+          "itemKey": "DeviceShare",
+          "imageUrl": "https://super-acme-sh.oss-cn-shanghai.aliyuncs.com/app/images/settings/setting_share.png",
+          "itemName": "设备分享",
+          "linkUrl": {
+            "androidUrl": "https://app-cn.superacme.com/sharedevice?deviceId=${deviceId}",
+            "iosUrl": "https://app-cn.superacme.com/sharedevice?deviceId=${deviceId}"
+          }
+        }
+      ]
+    },
+    {
+      "menuItems": [
+        {
+          "itemKey": "SystemInfo",
+          "imageUrl": "https://super-acme-sh.oss-cn-shanghai.aliyuncs.com/app/images/settings/setting_system.png",
+          "itemName": "系统信息",
+          "linkUrl": {
+            "androidUrl": "native:/DeviceMainSetting/Page?scene=Detail",
+            "iosUrl": "cinmoore://deviceSettings/SystemInfo/SystemInfoPage"
+          }
+        }
+      ]
+    }
+  ]
+}

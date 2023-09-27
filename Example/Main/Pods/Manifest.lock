@@ -1,0 +1,28 @@
+PODS:
+  - Component (0.0.1):
+    - RAMResource
+  - Component2 (0.0.1):
+    - RAMResource
+  - RAMResource (0.0.1)
+
+DEPENDENCIES:
+  - Component (from `../Component/`)
+  - Component2 (from `../Component2/`)
+  - RAMResource (from `../../`)
+
+EXTERNAL SOURCES:
+  Component:
+    :path: "../Component/"
+  Component2:
+    :path: "../Component2/"
+  RAMResource:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Component: 0b129ec00b2d8c0c3f08645e5283179aa1e3a2a8
+  Component2: 5509836d11891ff62ee2139f6d959fc42a974879
+  RAMResource: a3674b5c8ec3d44b0f72bbcf5fabfeb3ce7f2c4e
+
+PODFILE CHECKSUM: e2958181cf7399f8175f3d20b07854ab8ea71163
+
+COCOAPODS: 1.12.1

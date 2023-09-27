@@ -1,0 +1,13 @@
+use_frameworks!
+
+# github 官方 pod 源
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '14.0'
+
+target 'Demo' do
+  pod 'RAMResource', :path => '../../'
+  pod 'Component', :path => '../Component/'
+  pod 'Component2', :path => '../Component2/'
+  
+end

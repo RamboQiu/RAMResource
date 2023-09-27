@@ -1,0 +1,26 @@
+{
+  "name": "RAMResource",
+  "version": "0.0.1",
+  "summary": "A short description of RAMResource.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/RamboQiu/RAMResource.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qiujunyun": "qiujunyun@163.com"
+  },
+  "source": {
+    "git": "https://github.com/RamboQiu/RAMResource.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "module_name": "RAMResource",
+  "source_files": "RAMResource/**/*",
+  "swift_version": "5.0"
+}
